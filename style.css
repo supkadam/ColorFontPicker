@@ -1,0 +1,39 @@
+body{
+    background-color: lightpink;
+}
+.main{
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    
+}
+
+#container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+button{
+    height: 45px;
+    width: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+span{
+    padding: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
